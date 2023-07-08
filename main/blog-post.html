@@ -1,0 +1,1316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.getElementsByTagName("html")[0].className += " js";
+  </script>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Blog Post | E-commerce template by CodyHouse</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header
+    class="mega-nav mega-nav--border-bottom mega-nav--mobile mega-nav--desktop@md bg position-relative hide-nav ie:bg js-mega-nav js-hide-nav js-hide-nav--main"
+    data-nav-target-class="mega-nav--expanded">
+    <div class="mega-nav__container">
+      <!-- 👇 logo -->
+      <a href="index.html" class="mega-nav__logo">
+        <svg width="104" height="30" viewBox="0 0 104 30">
+          <title>Go to homepage</title>
+          <path fill="var(--color-contrast-higher)" d="M43.371 6.3v15.482c0 .567-.01 1.587.543 1.758a7.624 7.624 0 001.992.132c2.012 0 3.842-2.683 4.5-3.831a11.223 11.223 0 001.319-3.581h.689q-.087 1.069-.088 2.754 0 3.252.2 5.346c-6.586-.087-10.41-.111-17.373 0v-.6c2.34 0 2.139-1.266 2.139-2.578V6.3c0-2.091-.254-2.515-2.139-2.578v-.6q1.714.088 5.346.088 3.457 0 5.3-.088v.6c-2.299-.001-2.428.794-2.428 2.578zM69.446 16.6c0 4.278-1.508 8.188-7.7 8.188-4.324 0-7.72-1.827-7.72-8.188 0-6.18 3.187-8.233 7.72-8.233 5.525-.003 7.7 3.05 7.7 8.233zm-9.814 0c0 2.558.243 7.588 2.109 7.588s2.095-5.03 2.095-7.588-.211-7.632-2.095-7.632c-1.866-.003-2.109 5.06-2.109 7.632zM103.532 16.6c0 4.278-1.509 8.188-7.7 8.188-4.324 0-7.72-1.827-7.72-8.188 0-6.18 3.187-8.233 7.72-8.233 5.525-.003 7.7 3.05 7.7 8.233zm-9.814 0c0 2.558.243 7.588 2.109 7.588s2.095-5.03 2.095-7.588-.211-7.632-2.095-7.632c-1.866-.003-2.109 5.06-2.109 7.632zM86.907 23.672c0 3.175-2.654 4.813-3.991 5.413-3.269 1.468-8 .795-9.053.557s-2.879-.783-2.879-2.132c0-1.4 1.721-1.421 2.791-1.538a3.138 3.138 0 002.146-.835c-.568.011-2.734.223-3.97-1.208a3.606 3.606 0 01-.226-3.656c.249-.5.922-1.555 3.507-2.739a4.58 4.58 0 01-3.647-4.365 4.469 4.469 0 013.384-4.277 12.818 12.818 0 015.464-.411 4.849 4.849 0 01.813-3.493A3.007 3.007 0 0183.787 3.9c1.672 0 2.593.9 2.593 2.007a1.937 1.937 0 01-1.216 1.703 3.4 3.4 0 01-2.893-.132A2.929 2.929 0 0181.238 6.3a5.74 5.74 0 00-.161 2.27c4.2.843 4.6 3.35 4.6 4.6 0 2.866-2.348 4.805-7.046 4.805a12.73 12.73 0 01-2.842-.293c-.536.348-1.172.715-1.172 1.494q0 .981 1.07.981H82.5c1.316-.001 4.407.219 4.407 3.515zm-10.766 3.413c0 2.19 1.821 2.4 2.71 2.4a3.723 3.723 0 003.405-1.619 3.206 3.206 0 00.491-1.764c0-.484-.155-.967-1.377-.967h-4.849a4.312 4.312 0 00-.38 1.95zm.966-13.916c0 1.543.058 4.263 1.524 4.263 1.487 0 1.538-2.72 1.538-4.263s-.075-4.263-1.538-4.263c-1.443 0-1.524 2.73-1.524 4.263z"/>
+          <path fill="var(--color-primary)" d="M14 14V1H1v26h27V14H14z"/>
+          <path fill="var(--color-primary)" d="M14 1h14v13L14 1z"/>
+        </svg>
+      </a>
+
+      <!-- 👇 icon buttons --mobile -->
+      <div class="mega-nav__icon-btns mega-nav__icon-btns--mobile">
+        <a href="cart.html" class="mega-nav__icon-btn">
+          <svg class="icon" viewBox="0 0 24 24">
+            <title>Go to cart page</title>
+            <g class="icon__group" fill="none" stroke-linecap="square" stroke-linejoin="miter" stroke="currentColor">
+              <polyline points="4,4 22,4 19,14 4,14 "></polyline>
+              <circle cx="4" cy="22" r="2" fill="currentColor" stroke="none"></circle>
+              <circle cx="20" cy="22" r="2" fill="currentColor" stroke="none"></circle>
+              <polyline points="1,1 4,4 4,14 2,18 23,18 " stroke-linecap="butt"></polyline>
+            </g>
+          </svg>
+        </a>
+
+        <button class="reset mega-nav__icon-btn mega-nav__icon-btn--search js-tab-focus" aria-label="Toggle search"
+          aria-controls="mega-nav-search">
+          <svg class="icon" viewBox="0 0 24 24">
+            <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
+              <path d="M4.222 4.222l15.556 15.556" />
+              <path d="M19.778 4.222L4.222 19.778" />
+              <circle cx="9.5" cy="9.5" r="6.5" />
+            </g>
+          </svg>
+        </button>
+
+        <button class="reset mega-nav__icon-btn mega-nav__icon-btn--menu js-mega-nav-trigger js-tab-focus"
+          aria-label="Toggle menu" aria-controls="mega-nav-navigation">
+          <svg class="icon" viewBox="0 0 24 24">
+            <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
+              <path d="M1 6h22" />
+              <path d="M1 12h22" />
+              <path d="M1 18h22" />
+            </g>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mega-nav__nav js-mega-nav__nav" id="mega-nav-navigation" role="navigation" aria-label="Main">
+        <div class="mega-nav__nav-inner">
+          <ul class="mega-nav__items">
+            <li class="mega-nav__label">Menu</li>
+
+            <!-- 👇 layout 1 -> tabbed content -->
+            <li class="mega-nav__item js-mega-nav__item">
+              <button class="reset mega-nav__control js-mega-nav__control js-tab-focus">
+                Products
+                <i class="mega-nav__arrow-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 16 16">
+                    <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                      stroke-miterlimit="10">
+                      <path d="M2 2l12 12" />
+                      <path d="M14 2L2 14" />
+                    </g>
+                  </svg>
+                </i>
+              </button>
+
+              <div class="mega-nav__sub-nav-wrapper">
+                <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-1">
+                  <!-- 👇 links - visible on mobile -->
+                  <ul class="mega-nav__sub-items">
+                    <li class="mega-nav__sub-item">
+                      <a href="product-v1.html" class="mega-nav__sub-link">
+                        <span class="flex items-center gap-xs">
+                          <img class="block width-lg height-lg radius-50% object-cover"
+                            src="assets/img/mega-site-nav-img-1.jpg" alt="Image description">
+                          <i>Product One</i>
+                        </span>
+                      </a>
+                    </li>
+
+                    <li class="mega-nav__sub-item">
+                      <a href="product-v2.html" class="mega-nav__sub-link">
+                        <span class="flex items-center gap-xs">
+                          <img class="block width-lg height-lg radius-50% object-cover"
+                            src="assets/img/mega-site-nav-img-2.jpg" alt="Image description">
+                          <i>Product Two</i>
+                        </span>
+                      </a>
+                    </li>
+
+                    <li class="mega-nav__sub-item">
+                      <a href="product-v1.html" class="mega-nav__sub-link">
+                        <span class="flex items-center gap-xs">
+                          <img class="block width-lg height-lg radius-50% object-cover"
+                            src="assets/img/mega-site-nav-img-3.jpg" alt="Image description">
+                          <i>Product Three</i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+
+                  <!-- 👇 tabs - visible on desktop -->
+                  <div class="mega-nav__tabs grid gap-lg js-tabs">
+                    <ul class="col-4 mega-nav__tabs-controls js-tabs__controls" aria-label="Select a product">
+                      <li>
+                        <a href="#tabProduct1" class="mega-nav__tabs-control js-tab-focus" aria-selected="true">
+                          <span class="flex items-center gap-xs">
+                            <img class="block width-lg height-lg radius-50% object-cover"
+                              src="assets/img/mega-site-nav-img-1.jpg" alt="Image description">
+
+                            <i class="margin-right-xxxs">Product One</i>
+
+                            <svg class="icon icon--xs margin-left-auto" viewBox="0 0 16 16" aria-hidden="true">
+                              <path d="M5,2l6,6L5,14" fill="none" stroke="currentColor" stroke-linecap="square"
+                                stroke-miterlimit="10" stroke-width="1" /></svg>
+                          </span>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#tabProduct2" class="mega-nav__tabs-control js-tab-focus" aria-selected="true">
+                          <span class="flex items-center gap-xs">
+                            <img class="block width-lg height-lg radius-50% object-cover"
+                              src="assets/img/mega-site-nav-img-2.jpg" alt="Image description">
+
+                            <i class="margin-right-xxxs">Product Two</i>
+
+                            <svg class="icon icon--xs margin-left-auto" viewBox="0 0 16 16" aria-hidden="true">
+                              <path d="M5,2l6,6L5,14" fill="none" stroke="currentColor" stroke-linecap="square"
+                                stroke-miterlimit="10" stroke-width="1" /></svg>
+                          </span>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="#tabProduct3" class="mega-nav__tabs-control js-tab-focus" aria-selected="true">
+                          <span class="flex items-center gap-xs">
+                            <img class="block width-lg height-lg radius-50% object-cover"
+                              src="assets/img/mega-site-nav-img-3.jpg" alt="Image description">
+
+                            <i class="margin-right-xxxs">Product Three</i>
+
+                            <svg class="icon icon--xs margin-left-auto" viewBox="0 0 16 16" aria-hidden="true">
+                              <path d="M5,2l6,6L5,14" fill="none" stroke="currentColor" stroke-linecap="square"
+                                stroke-miterlimit="10" stroke-width="1" /></svg>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div class="col-8 js-tabs__panels">
+                      <section id="tabProduct1" class="mega-nav__tabs-panel js-tabs__panel">
+                        <a href="product-v1.html" class="mega-nav__tabs-img margin-bottom-md">
+                          <img class="block width-100%" src="assets/img/mega-site-nav-img-1.jpg"
+                            alt="Image description">
+                        </a>
+
+                        <div class="text-component">
+                          <h1 class="text-xl">Product One</h1>
+                          <p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Amet, quaerat.</p>
+                          <p><a href="product-v1.html" class="btn btn--subtle">Shop Now</a></p>
+                        </div>
+                      </section>
+
+                      <section id="tabProduct2" class="mega-nav__tabs-panel js-tabs__panel">
+                        <a href="product-v2.html" class="mega-nav__tabs-img margin-bottom-md">
+                          <img class="block width-100%" src="assets/img/mega-site-nav-img-2.jpg"
+                            alt="Image description">
+                        </a>
+
+                        <div class="text-component">
+                          <h1 class="text-xl">Product Two</h1>
+                          <p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Amet, quaerat.</p>
+                          <p><a href="product-v2.html" class="btn btn--subtle">Shop Now</a></p>
+                        </div>
+                      </section>
+
+                      <section id="tabProduct3" class="mega-nav__tabs-panel js-tabs__panel">
+                        <a href="product-v1.html" class="mega-nav__tabs-img margin-bottom-md">
+                          <img class="block width-100%" src="assets/img/mega-site-nav-img-3.jpg"
+                            alt="Image description">
+                        </a>
+
+                        <div class="text-component">
+                          <h1 class="text-xl">Product Three</h1>
+                          <p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Amet, quaerat.</p>
+                          <p><a href="product-v1.html" class="btn btn--subtle">Shop Now</a></p>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- 👇 layout 2 -> multiple lists -->
+            <li class="mega-nav__item js-mega-nav__item">
+              <button class="reset mega-nav__control js-mega-nav__control js-tab-focus">
+                Pages
+                <i class="mega-nav__arrow-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 16 16">
+                    <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                      stroke-miterlimit="10">
+                      <path d="M2 2l12 12" />
+                      <path d="M14 2L2 14" />
+                    </g>
+                  </svg>
+                </i>
+              </button>
+
+              <div class="mega-nav__sub-nav-wrapper">
+                <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-2">
+                  <ul class="mega-nav__sub-items">
+                    <li class="mega-nav__label">Shop</li>
+                    <li class="mega-nav__sub-item"><a href="shop.html" class="mega-nav__sub-link">All Products</a>
+                    </li>
+                    <li class="mega-nav__sub-item"><a href="shop-categories.html"
+                        class="mega-nav__sub-link">Categories</a></li>
+                    <li class="mega-nav__sub-item"><a href="shop-category.html" class="mega-nav__sub-link">Category</a>
+                    </li>
+                    <li class="mega-nav__sub-item"><a href="product-v1.html" class="mega-nav__sub-link">Product v1</a>
+                    </li>
+                    <li class="mega-nav__sub-item"><a href="product-v2.html" class="mega-nav__sub-link">Product v2</a>
+                    </li>
+                    <li class="mega-nav__sub-item"><a href="cart.html" class="mega-nav__sub-link">Cart</a></li>
+                    <li class="mega-nav__sub-item"><a href="checkout.html" class="mega-nav__sub-link">Checkout</a>
+                    </li>
+                  </ul>
+
+                  <ul class="mega-nav__sub-items">
+                    <li class="mega-nav__label">Extra Pages</li>
+                    <li class="mega-nav__sub-item"><a href="index.html" class="mega-nav__sub-link">Home v1</a></li>
+                    <li class="mega-nav__sub-item"><a href="home-v2.html" class="mega-nav__sub-link">Home v2</a></li>
+                    <li class="mega-nav__sub-item"><a href="about-us.html" class="mega-nav__sub-link">About Us</a>
+                    </li>
+                    <li class="mega-nav__sub-item"><a href="404.html" class="mega-nav__sub-link">404</a></li>
+                    <li class="mega-nav__sub-item"><a href="thank-you.html" class="mega-nav__sub-link">Thank You</a>
+                    </li>
+                    <li class="mega-nav__sub-item"><a href="basic-page.html" class="mega-nav__sub-link">Basic Page</a>
+                    </li>
+                  </ul>
+
+                  <ul class="mega-nav__sub-items">
+                    <li class="mega-nav__label">Blog</li>
+                    <li class="mega-nav__sub-item"><a href="blog.html" class="mega-nav__sub-link">Blog Gallery v1</a>
+                    </li>
+                    <li class="mega-nav__sub-item"><a href="blog-v2.html" class="mega-nav__sub-link">Blog Gallery
+                        v2</a></li>
+                    <li class="mega-nav__sub-item"><a href="blog-post.html" class="mega-nav__sub-link">Blog Post</a>
+                    </li>
+                  </ul>
+
+                  <ul class="mega-nav__sub-items">
+                    <li class="mega-nav__label">Account</li>
+                    <li class="mega-nav__sub-item"><a href="log-in.html" class="mega-nav__sub-link">Log In</a></li>
+                    <li class="mega-nav__sub-item"><a href="account-settings.html"
+                        class="mega-nav__sub-link">Settings</a></li>
+                    <li class="mega-nav__sub-item"><a href="account-addresses.html"
+                        class="mega-nav__sub-link">Addresses</a></li>
+                    <li class="mega-nav__sub-item"><a href="account-order-history.html" class="mega-nav__sub-link">Order
+                        History</a></li>
+                    <li class="mega-nav__sub-item"><a href="account-order-details.html" class="mega-nav__sub-link">Order
+                        Details</a></li>
+                    <li class="mega-nav__sub-item"><a href="account-wishlist.html"
+                        class="mega-nav__sub-link">Wishlist</a></li>
+                    <li class="mega-nav__sub-item"><a href="account-payment-methods.html"
+                        class="mega-nav__sub-link">Payment Methods</a></li>
+                  </ul>
+
+                  <div class="mega-nav__card width-100% max-width-xs margin-x-auto">
+                    <a href="shop.html" class="block overflow-hidden">
+                      <figure class="aspect-ratio-4:3">
+                        <img class="block width-100%" src="assets/img/mega-site-nav-img-1.jpg" alt="Image description">
+                      </figure>
+                    </a>
+
+                    <div class="margin-top-sm">
+                      <h3 class="text-base"><a href="shop.html" class="mega-nav__card-title">Browse all →</a></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- 👇 layout 3 -> gallery -->
+            <li class="mega-nav__item js-mega-nav__item">
+              <button class="reset mega-nav__control js-mega-nav__control js-tab-focus">
+                Gallery
+                <i class="mega-nav__arrow-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 16 16">
+                    <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                      stroke-miterlimit="10">
+                      <path d="M2 2l12 12" />
+                      <path d="M14 2L2 14" />
+                    </g>
+                  </svg>
+                </i>
+              </button>
+
+              <div class="mega-nav__sub-nav-wrapper">
+                <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-3">
+                  <div class="mega-nav__card">
+                    <a href="shop-category.html" class="block overflow-hidden">
+                      <figure class="aspect-ratio-4:3">
+                        <img class="block width-100%" src="assets/img/mega-site-nav-img-4.jpg" alt="Image description">
+                      </figure>
+                    </a>
+
+                    <div class="margin-top-sm">
+                      <h3 class="text-base"><a href="shop-category.html" class="mega-nav__card-title">Clothing</a></h3>
+                    </div>
+                  </div>
+
+                  <div class="mega-nav__card">
+                    <a href="shop-category.html" class="block overflow-hidden">
+                      <figure class="aspect-ratio-4:3">
+                        <img class="block width-100%" src="assets/img/mega-site-nav-img-5.jpg" alt="Image description">
+                      </figure>
+                    </a>
+
+                    <div class="margin-top-sm">
+                      <h3 class="text-base"><a href="shop-category.html" class="mega-nav__card-title">Shoes</a></h3>
+                    </div>
+                  </div>
+
+                  <div class="mega-nav__card">
+                    <a href="shop-category.html" class="block overflow-hidden">
+                      <figure class="aspect-ratio-4:3">
+                        <img class="block width-100%" src="assets/img/mega-site-nav-img-6.jpg" alt="Image description">
+                      </figure>
+                    </a>
+
+                    <div class="margin-top-sm">
+                      <h3 class="text-base"><a href="shop-category.html" class="mega-nav__card-title">Home</a></h3>
+                    </div>
+                  </div>
+
+                  <div class="mega-nav__card">
+                    <a href="shop-category.html" class="block overflow-hidden">
+                      <figure class="aspect-ratio-4:3">
+                        <img class="block width-100%" src="assets/img/mega-site-nav-img-7.jpg" alt="Image description">
+                      </figure>
+                    </a>
+
+                    <div class="margin-top-sm">
+                      <h3 class="text-base"><a href="shop-category.html" class="mega-nav__card-title">Accessories</a></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- 👇 layout 4 -> single list -->
+            <li class="mega-nav__item js-mega-nav__item">
+              <button class="reset mega-nav__control js-mega-nav__control js-tab-focus">
+                Support
+                <i class="mega-nav__arrow-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 16 16">
+                    <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                      stroke-miterlimit="10">
+                      <path d="M2 2l12 12" />
+                      <path d="M14 2L2 14" />
+                    </g>
+                  </svg>
+                </i>
+              </button>
+
+              <div class="mega-nav__sub-nav-wrapper">
+                <div class="mega-nav__sub-nav mega-nav__sub-nav--layout-4">
+                  <ul class="mega-nav__sub-items">
+                    <li class="mega-nav__label">Help &amp; Support</li>
+                    <li class="mega-nav__sub-item"><a href="help-center.html" class="mega-nav__sub-link">Help
+                        Center</a></li>
+                    <li class="mega-nav__sub-item"><a href="faq.html" class="mega-nav__sub-link">Frequently Asked
+                        Questions</a></li>
+                    <li class="mega-nav__sub-item"><a href="contact.html" class="mega-nav__sub-link">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="mega-nav__label">Other</li>
+
+            <!-- 👇 link -->
+            <li class="mega-nav__item">
+              <a href="https://codyhouse.co/ds/docs/templates" class="mega-nav__control" target="_blank"
+                rel="noopener">Docs</a>
+            </li>
+
+            <!-- 👇 Account link --mobile -->
+            <li class="mega-nav__item hide@md">
+              <a href="account-settings.html" class="mega-nav__control">Account</a>
+            </li>
+          </ul>
+
+          <ul class="mega-nav__items">
+            <!-- 👇 icon buttons --desktop -->
+            <li class="mega-nav__icon-btns mega-nav__icon-btns--desktop">
+              <a href="cart.html" class="mega-nav__icon-btn" aria-controls="cart-drawer">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <title>Go to cart page</title>
+                  <g class="icon__group" fill="none" stroke-linecap="square" stroke-linejoin="miter"
+                    stroke="currentColor">
+                    <polyline points="4,4 22,4 19,14 4,14 "></polyline>
+                    <circle cx="4" cy="22" r="2" fill="currentColor" stroke="none"></circle>
+                    <circle cx="20" cy="22" r="2" fill="currentColor" stroke="none"></circle>
+                    <polyline points="1,1 4,4 4,14 2,18 23,18 " stroke-linecap="butt"></polyline>
+                  </g>
+                </svg>
+
+                <span class="counter counter--critical">2 <i class="sr-only">items in cart</i></span>
+              </a>
+
+              <div class="dropdown js-dropdown">
+                <div class="mega-nav__icon-btn dropdown__wrapper inline-block">
+                  <a href="account-settings.html"
+                    class="color-inherit flex height-100% width-100% flex-center dropdown__trigger">
+                    <svg class="icon" viewBox="0 0 24 24">
+                      <title>Go to account settings</title>
+                      <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                        stroke-miterlimit="10">
+                        <circle cx="12" cy="6" r="4" />
+                        <path d="M12 13a8 8 0 00-8 8h16a8 8 0 00-8-8z" />
+                      </g>
+                    </svg>
+                  </a>
+
+                  <ul class="dropdown__menu" aria-label="submenu" data-theme="default">
+                    <li><a href="account-order-history.html" class="dropdown__item">Orders</a></li>
+                    <li><a href="account-wishlist.html" class="dropdown__item">Wishlist</a></li>
+                    <li><a href="account-addresses.html" class="dropdown__item">Addresses</a></li>
+                    <li class="dropdown__separator" role="separator"></li>
+                    <li><a href="account-settings.html" class="dropdown__item">Account Settings</a></li>
+                    <li><a href="#0" class="dropdown__item">Log out</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <button class="reset mega-nav__icon-btn mega-nav__icon-btn--search js-tab-focus"
+                aria-label="Toggle search" aria-controls="mega-nav-search">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square"
+                    stroke-miterlimit="10">
+                    <path d="M4.222 4.222l15.556 15.556" />
+                    <path d="M19.778 4.222L4.222 19.778" />
+                    <circle cx="9.5" cy="9.5" r="6.5" />
+                  </g>
+                </svg>
+              </button>
+            </li>
+
+            <!-- 👇 button -->
+            <li class="mega-nav__item">
+              <a href="log-in.html" class="btn btn--contrast mega-nav__btn">Log in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 👇 search -->
+      <div class="mega-nav__search js-mega-nav__search" id="mega-nav-search">
+        <div class="mega-nav__search-inner">
+          <input class="form-control width-100%" type="reset search" name="megasite-search" id="megasite-search"
+            placeholder="Search..." aria-label="Search">
+
+          <div class="margin-top-lg">
+            <p class="mega-nav__label">Quick Links</p>
+
+            <ul>
+              <li><a href="help-center.html" class="mega-nav__quick-link">Help Center</a></li>
+              <li><a href="account-order-history.html" class="mega-nav__quick-link">Your Orders</a></li>
+              <li><a href="account-wishlist.html" class="mega-nav__quick-link">Wishlist</a></li>
+              <li><a href="faq.html" class="mega-nav__quick-link">Frequently Asked
+                  Questions</a></li>
+              <li><a href="contact.html" class="mega-nav__quick-link">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="position-relative z-index-1">
+    <!-- article -->
+    <article class="t-article-v3 padding-bottom-lg">
+      <div class="t-article-v3__hero margin-bottom-lg"
+        style="background-image: url('assets/img/article-v3-img-1.jpg');">
+        <div class="container max-width-adaptive-sm">
+          <div class="t-article-v3__intro-text text-component text-center reveal-fx reveal-fx--translate-up">
+            <h1 class="text-xxxl color-inherit">I watched the storm, so beautiful yet terrific</h1>
+            <p class="text-sm color-inherit">November 21, 2020 - <a href="#comments"
+                class="color-inherit js-smooth-scroll">15 comments</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container max-width-adaptive-sm margin-bottom-xl js-sticky-sharebar-target">
+        <div class="text-component line-height-lg text-space-y-md">
+          <p class="drop-cap">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, temporibus, aut officia
+            minus sequi quae <a href="#0" class="text-bg-fx text-bg-fx--scale-x">molestias beatae</a>, qui ipsa mollitia alias accusamus voluptate ratione
+            provident numquam iure quia aliquam tempore possimus consequatur vel. Iure atque enim in? Magnam quis
+            cupiditate quia labore quaerat, eligendi nobis, ab similique harum nostrum nulla aliquam dolore adipisci ut.
+            Eaque doloremque iure veniam nobis asperiores!</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis architecto doloribus perspiciatis.</p>
+
+          <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, animi. <mark>Praesentium esse magnam sequi
+              aut, repellat pariatur beatae quis</mark>. Quidem harum dolores ab velit neque suscipit vitae pariatur,
+            perspiciatis voluptatum molestiae facere ad tempora. Non omnis fugiat libero magnam sapiente vel. Optio a,
+            enim explicabo totam amet omnis accusantium! Quod.</p>
+
+          <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt soluta similique quia.
+          </blockquote>
+
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga architecto accusamus?</p>
+
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum.</li>
+          </ul>
+
+          <ol>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem, ipsum.</li>
+          </ol>
+
+          <hr>
+
+          <div class="text-component__block text-component__block--outset">
+            <h3 class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae officiis
+              similique enim?</h3>
+          </div>
+
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat hic autem consequatur libero, impedit
+            fugiat facere ex! Fugit, cumque minus!</p>
+
+          <figure class="text-component__block">
+            <img src="assets/img/article-example-img-2.svg" alt="Image description here">
+            <figcaption>Image caption</figcaption>
+          </figure>
+
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto odit incidunt nobis cumque, assumenda
+            quidem ducimus! Architecto, molestias reiciendis tempora pariatur nobis nam quibusdam, nemo repellendus
+            rerum rem quam soluta.</p>
+
+          <figure class="text-component__block text-component__block--left">
+            <img src="assets/img/article-example-img-2.svg" alt="Image description here">
+            <figcaption>Image caption</figcaption>
+          </figure>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis incidunt minus vero deserunt illum
+            perspiciatis sed sit. Officia, quia at? Nisi dolores quis culpa nulla eveniet? Rem vel numquam ipsa
+            voluptatum voluptate illo minima, temporibus atque officia soluta magnam laborum neque alias consequuntur
+            enim aliquid consequatur non accusamus exercitationem. Perspiciatis dolorem a commodi alias, ad corporis
+            iusto magnam in quae deleniti incidunt facilis voluptatibus. Aliquid reprehenderit, provident, totam
+            necessitatibus cumque vel veniam consequuntur maxime iure accusamus explicabo recusandae neque quas?</p>
+
+          <figure class="text-component__block text-component__block--outset text-component__block--right">
+            <img src="assets/img/article-example-img-2.svg" alt="Image description here">
+            <figcaption>Image caption</figcaption>
+          </figure>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod incidunt provident aspernatur quibusdam
+            expedita soluta voluptas, sapiente ipsa praesentium eum earum, modi necessitatibus a eveniet quidem
+            doloribus, sequi sed tenetur nesciunt consectetur totam asperiores assumenda inventore porro. Enim beatae
+            iure ullam consequuntur, quibusdam similique quae doloribus delectus ipsa, cumque odit voluptatem? Natus,
+            dolorem quaerat! Magni fugit enim nam quam beatae facilis, consequuntur sunt totam pariatur aperiam sequi
+            laboriosam similique dolores aspernatur alias consectetur maxime voluptas, ut tempore. Ipsam vel, id
+            repellat maiores non fuga unde modi voluptates nam reiciendis blanditiis. At veniam odit illum porro maiores
+            magni quasi deserunt est?</p>
+
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos vitae, sequi officia dignissimos laboriosam
+            atque esse omnis. Perspiciatis, ratione eius.</p>
+
+          <div class="text-component__block text-component__block--outset">
+            <div class="grid gap-xs">
+              <figure class="col">
+                <img src="assets/img/article-example-img-1.svg" alt="Image description here">
+                <figcaption>Image caption</figcaption>
+              </figure>
+
+              <figure class="col">
+                <img src="assets/img/article-example-img-1.svg" alt="Image description here">
+                <figcaption>Image caption</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem dolore fugiat facilis sint
+            quidem obcaecati voluptas ut quae aliquam dolorem omnis, odit nihil! Sint doloremque voluptates laborum illo
+            excepturi eligendi asperiores corporis voluptatem iusto? Voluptatem repellendus consectetur exercitationem,
+            quisquam corrupti rem reiciendis maiores aspernatur quaerat impedit aliquid minus voluptate, incidunt
+            eveniet, et numquam non eligendi! Officiis suscipit ad illo.</p>
+
+          <div class="text-component__block text-component__block--outset">
+            <figure class="responsive-iframe">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/zAGVQLHvwOY" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </figure>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem dolore fugiat facilis sint
+            quidem obcaecati voluptas ut quae aliquam dolorem omnis, odit nihil! Sint doloremque voluptates laborum illo
+            excepturi eligendi asperiores corporis voluptatem iusto? Voluptatem repellendus consectetur exercitationem,
+            quisquam corrupti rem reiciendis maiores aspernatur quaerat impedit aliquid minus voluptate, incidunt
+            eveniet, et numquam non eligendi! Officiis suscipit ad illo.</p>
+        </div>
+      </div>
+
+      <div class="t-article-v3__divider container max-width-adaptive-sm margin-bottom-xl" aria-hidden="true">
+        <span></span></div>
+
+      <div class="container max-width-adaptive-sm">
+        <div class="author ">
+          <a href="#0" class="author__img-wrapper">
+            <img src="assets/img/author-img-1.jpg" alt="Author picture">
+          </a>
+
+          <div class="author__content text-component text-space-y-xxs">
+            <h4>Hi! I'm <a href="#0" rel="author">Olivia Gribben</a></h4>
+            <p class="color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium
+              consequatur. Perspiciatis!</p>
+            <p class="text-sm"><a href="#0">@oliviagribben</a></p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- sharebar -->
+    <div class="sticky-sharebar js-sticky-sharebar">
+      <ul class="sticky-sharebar__list">
+        <li>
+          <a class="sticky-sharebar__btn js-social-share" data-social="twitter"
+            data-text="Hi there! https://codyhouse.co via @CodyWebHouse" data-hashtags="#nuggets, #dev"
+            href="https://twitter.com/intent/tweet">
+            <svg class="icon" viewBox="0 0 32 32">
+              <title>Share on Twitter</title>
+              <g>
+                <path
+                  d="M32,6.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6C25.7,3.8,24,3,22.2,3 c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5C10.3,10.8,5.5,8.2,2.2,4.2c-0.6,1-0.9,2.1-0.9,3.3c0,2.3,1.2,4.3,2.9,5.5 c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1C2.9,27.9,6.4,29,10.1,29c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C30,8.5,31.1,7.4,32,6.1z">
+                </path>
+              </g>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="sticky-sharebar__btn js-social-share" data-social="facebook" data-url="https://codyhouse.co"
+            href="http://www.facebook.com/sharer.php">
+            <svg class="icon" viewBox="0 0 32 32">
+              <title>Share on Facebook</title>
+              <path
+                d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z">
+              </path>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="sticky-sharebar__btn js-social-share" data-social="pinterest"
+            data-description="Description for my Pinterest share"
+            data-media="https://codyhouse.co/app/assets/img/social-sharing-img-1.jpg"
+            href="http://pinterest.com/pin/create/button">
+            <svg class="icon" viewBox="0 0 32 32">
+              <title>Share on Pinterest</title>
+              <g>
+                <path
+                  d="M16,0C7.2,0,0,7.2,0,16c0,6.8,4.2,12.6,10.2,14.9c-0.1-1.3-0.3-3.2,0.1-4.6c0.3-1.2,1.9-8,1.9-8 s-0.5-1-0.5-2.4c0-2.2,1.3-3.9,2.9-3.9c1.4,0,2,1,2,2.3c0,1.4-0.9,3.4-1.3,5.3c-0.4,1.6,0.8,2.9,2.4,2.9c2.8,0,5-3,5-7.3 c0-3.8-2.8-6.5-6.7-6.5c-4.6,0-7.2,3.4-7.2,6.9c0,1.4,0.5,2.8,1.2,3.7c0.1,0.2,0.1,0.3,0.1,0.5c-0.1,0.5-0.4,1.6-0.4,1.8 C9.5,21.9,9.3,22,9,21.8c-2-0.9-3.2-3.9-3.2-6.2c0-5,3.7-9.7,10.6-9.7c5.6,0,9.9,4,9.9,9.2c0,5.5-3.5,10-8.3,10 c-1.6,0-3.1-0.8-3.7-1.8c0,0-0.8,3.1-1,3.8c-0.4,1.4-1.3,3.1-2,4.2c1.5,0.5,3.1,0.7,4.7,0.7c8.8,0,16-7.2,16-16C32,7.2,24.8,0,16,0z ">
+                </path>
+              </g>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="sticky-sharebar__btn js-social-share" data-social="linkedin" data-url="http://codyhouse.co"
+            href="https://www.linkedin.com/shareArticle">
+            <svg class="icon" viewBox="0 0 32 32">
+              <title>Share on Linkedin</title>
+              <g>
+                <path
+                  d="M29,1H3A2,2,0,0,0,1,3V29a2,2,0,0,0,2,2H29a2,2,0,0,0,2-2V3A2,2,0,0,0,29,1ZM9.887,26.594H5.374V12.25H9.887ZM7.63,10.281a2.625,2.625,0,1,1,2.633-2.625A2.624,2.624,0,0,1,7.63,10.281ZM26.621,26.594H22.2V19.656c0-1.687,0-3.75-2.35-3.75s-2.633,1.782-2.633,3.656v7.126H12.8V12.25h4.136v1.969h.094a4.7,4.7,0,0,1,4.231-2.344c4.513,0,5.359,3,5.359,6.844Z">
+                </path>
+              </g>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="sticky-sharebar__btn js-social-share" data-social="mail" data-subject="Email Subject"
+            data-body="Content of my email." href="mailto:">
+            <svg class="icon" viewBox="0 0 32 32">
+              <title>Share by Email</title>
+              <g>
+                <path
+                  d="M28,3H4A3.957,3.957,0,0,0,0,7V25a3.957,3.957,0,0,0,4,4H28a3.957,3.957,0,0,0,4-4V7A3.957,3.957,0,0,0,28,3Zm.6,6.8-12,9a1,1,0,0,1-1.2,0l-12-9A1,1,0,0,1,4.6,8.2L16,16.75,27.4,8.2a1,1,0,1,1,1.2,1.6Z">
+                </path>
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- related articles -->
+    <section class="position-relative z-index-1 padding-y-xl margin-bottom-xl" data-theme="dark-1">
+      <div class="position-relative z-index-2 container max-width-adaptive-lg">
+        <div class="margin-bottom-md">
+          <h1 class="text-md">You might also like...</h1>
+        </div>
+
+        <div class="grid gap-md">
+          <article class="story-v2 col-6@md col-4@xl">
+            <div class="story-v2__meta">
+              <p>By <a href="#0" rel="author">James Powell</a> <span role="separator"></span> <time
+                  datetime="2020-05-20">May 20, 2020</time> <span role="separator"></span> <a href="#0">no comments</a>
+              </p>
+            </div>
+
+            <div class="text-component">
+              <h2 class="story-v2__headline"><a href="#0">Lorem ipsum dolor sit amet consectetur</a></h2>
+              <p class="story-v2__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto saepe
+                voluptate similique vel et nihil numquam.</p>
+            </div>
+          </article>
+
+          <article class="story-v2 col-6@md col-4@xl">
+            <div class="story-v2__meta">
+              <p>By <a href="#0" rel="author">James Powell</a> <span role="separator"></span> <time
+                  datetime="2020-05-10">May 10, 2020</time> <span role="separator"></span> <a href="#0">1 comment</a>
+              </p>
+            </div>
+
+            <div class="text-component">
+              <h2 class="story-v2__headline"><a href="#0">Lorem ipsum dolor sit amet consectetur adipisicing elit</a>
+              </h2>
+              <p class="story-v2__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iusto
+                voluptas quisquam.</p>
+            </div>
+          </article>
+
+          <article class="story-v2 col-6@md col-4@xl">
+            <div class="story-v2__meta">
+              <p>By <a href="#0" rel="author">Olivia Gribben</a> <span role="separator"></span> <time
+                  datetime="2020-04-03">April 3, 2020</time> <span role="separator"></span> <a href="#0">5 comments</a>
+              </p>
+            </div>
+
+            <div class="text-component">
+              <h2 class="story-v2__headline"><a href="#0">Lorem ipsum dolor sit amet</a></h2>
+              <p class="story-v2__excerpt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident magni aut
+                dicta neque nulla aspernatur quos, nemo at fugiat laudantium.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <figure class="bg-decoration-v2 z-index-1" aria-hidden="true">
+        <svg class="bg-decoration-v2__svg color-contrast-medium opacity-10%" viewBox="0 0 1920 450" fill="none">
+          <g stroke="currentColor" stroke-width="2">
+            <rect x="1510" y="120" width="160" height="70" />
+            <path d="M1510 190L1670 120" />
+            <rect x="1510" y="260" width="160" height="70" />
+            <path d="M1510 330L1670 260" />
+            <rect x="1350" y="50" width="160" height="70" />
+            <path d="M1350 120L1510 50" />
+            <path d="M1350 190L1510 120" />
+            <path d="M1350 330L1510 260" />
+            <rect x="1350" y="190" width="160" height="70" />
+            <rect x="1350" y="330" width="160" height="70" />
+            <path d="M1350 400L1510 330" />
+            <rect x="1190" y="120" width="160" height="70" transform="rotate(-180 1190 120)" />
+            <rect x="1190" y="190" width="160" height="70" />
+            <path d="M1190 260L1350 190" />
+          </g>
+        </svg>
+      </figure>
+    </section>
+
+    <!-- comments -->
+    <div class="container max-width-adaptive-sm margin-bottom-xxl">
+      <section class="comments" id="comments">
+        <div class="margin-bottom-lg">
+          <div class="flex gap-sm flex-column flex-row@md justify-between items-center@md">
+            <div>
+              <h1 class="text-md">Comments</h1>
+            </div>
+
+            <form aria-label="Choose sorting option">
+              <div class="flex flex-wrap gap-sm text-sm">
+                <div class="position-relative">
+                  <input class="comments__sorting-label" type="radio" name="sortComments" id="sortCommentsPopular"
+                    checked>
+                  <label for="sortCommentsPopular">Popular</label>
+                </div>
+
+                <div class="position-relative">
+                  <input class="comments__sorting-label" type="radio" name="sortComments" id="sortCommentsNewest">
+                  <label for="sortCommentsNewest">Newest</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <ul class="margin-bottom-lg">
+          <li class="comments__comment">
+            <div class="flex items-start">
+              <a href="#0" class="comments__author-img">
+                <img src="assets/img/comments-placeholder.svg" alt="Author picture">
+              </a>
+
+              <div class="comments__content margin-top-xxxs">
+                <div class="text-component text-sm text-space-y-xs line-height-sm read-more js-read-more"
+                  data-characters="150" data-btn-class="comments__readmore-btn js-tab-focus">
+                  <p><a href="#0" class="comments__author-name" rel="author">Olivia Gribben</a></p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium consequatur.
+                    Perspiciatis!</p>
+
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sit sed cupiditate vel, sapiente
+                    aspernatur, reiciendis repellat ad delectus quia ea ipsam minima in dignissimos commodi velit nemo
+                    voluptatibus quisquam.</p>
+                </div>
+
+                <div class="margin-top-xs text-sm">
+                  <div class="flex gap-xxs items-center">
+                    <button class="reset comments__vote-btn js-comments__vote-btn js-tab-focus"
+                      data-label="Like this comment along with 5 other people" aria-pressed="false">
+                      <span class="comments__vote-icon-wrapper">
+                        <svg class="icon block" viewBox="0 0 12 12" aria-hidden="true">
+                          <path
+                            d="M11.045,2.011a3.345,3.345,0,0,0-4.792,0c-.075.075-.15.225-.225.3-.075-.074-.15-.224-.225-.3a3.345,3.345,0,0,0-4.792,0,3.345,3.345,0,0,0,0,4.792l5.017,4.718L11.045,6.8A3.484,3.484,0,0,0,11.045,2.011Z">
+                          </path>
+                        </svg>
+                      </span>
+
+                      <span class="margin-left-xxxs js-comments__vote-label" aria-hidden="true">5</span>
+                    </button>
+
+                    <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                    <button class="reset comments__label-btn js-tab-focus">Reply</button>
+
+                    <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                    <time class="comments__time" aria-label="1 hour ago">1h</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="comments__comment">
+            <div class="flex items-start">
+              <a href="#0" class="comments__author-img">
+                <img src="assets/img/comments-placeholder.svg" alt="Author picture">
+              </a>
+
+              <div class="comments__content margin-top-xxxs">
+                <div class="text-component text-sm text-space-y-xs line-height-sm read-more js-read-more"
+                  data-characters="150" data-btn-class="comments__readmore-btn js-tab-focus">
+                  <p><a href="#0" class="comments__author-name" rel="author">Olivia Gribben</a></p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium consequatur.
+                    Perspiciatis!</p>
+                </div>
+
+                <div class="margin-top-xs text-sm">
+                  <div class="flex gap-xxs items-center">
+                    <button class="reset comments__vote-btn js-comments__vote-btn js-tab-focus"
+                      data-label="Like this comment along with 5 other people" aria-pressed="false">
+                      <span class="comments__vote-icon-wrapper">
+                        <svg class="icon block" viewBox="0 0 12 12" aria-hidden="true">
+                          <path
+                            d="M11.045,2.011a3.345,3.345,0,0,0-4.792,0c-.075.075-.15.225-.225.3-.075-.074-.15-.224-.225-.3a3.345,3.345,0,0,0-4.792,0,3.345,3.345,0,0,0,0,4.792l5.017,4.718L11.045,6.8A3.484,3.484,0,0,0,11.045,2.011Z">
+                          </path>
+                        </svg>
+                      </span>
+
+                      <span class="margin-left-xxxs js-comments__vote-label" aria-hidden="true">5</span>
+                    </button>
+
+                    <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                    <button class="reset comments__label-btn js-tab-focus">Reply</button>
+
+                    <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                    <time class="comments__time" aria-label="1 hour ago">1h</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <details class="comments__details details js-details">
+              <summary class="details__summary color-primary js-details__summary text-sm" role="button">
+                <span class="flex items-center">
+                  <svg class="icon icon--xxs margin-right-xxs" aria-hidden="true" viewBox="0 0 12 12">
+                    <path
+                      d="M2.783.088A.5.5,0,0,0,2,.5v11a.5.5,0,0,0,.268.442A.49.49,0,0,0,2.5,12a.5.5,0,0,0,.283-.088l8-5.5a.5.5,0,0,0,0-.824Z">
+                    </path>
+                  </svg>
+                  <span>View 2 replies</span>
+                </span>
+              </summary>
+
+              <div class="details__content js-details__content">
+                <ul>
+                  <li class="comments__comment">
+                    <div class="flex items-start">
+                      <a href="#0" class="comments__author-img">
+                        <img src="assets/img/comments-placeholder.svg" alt="Author picture">
+                      </a>
+
+                      <div class="comments__content margin-top-xxxs">
+                        <div class="text-component text-sm text-space-y-xs line-height-sm read-more js-read-more"
+                          data-characters="150" data-btn-class="comments__readmore-btn js-tab-focus">
+                          <p><a href="#0" class="comments__author-name" rel="author">Olivia Gribben</a></p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium consequatur.
+                            Perspiciatis!</p>
+                        </div>
+
+                        <div class="margin-top-xs text-sm">
+                          <div class="flex gap-xxs items-center">
+                            <button class="reset comments__vote-btn js-comments__vote-btn js-tab-focus"
+                              data-label="Like this comment along with 5 other people" aria-pressed="false">
+                              <span class="comments__vote-icon-wrapper">
+                                <svg class="icon block" viewBox="0 0 12 12" aria-hidden="true">
+                                  <path
+                                    d="M11.045,2.011a3.345,3.345,0,0,0-4.792,0c-.075.075-.15.225-.225.3-.075-.074-.15-.224-.225-.3a3.345,3.345,0,0,0-4.792,0,3.345,3.345,0,0,0,0,4.792l5.017,4.718L11.045,6.8A3.484,3.484,0,0,0,11.045,2.011Z">
+                                  </path>
+                                </svg>
+                              </span>
+
+                              <span class="margin-left-xxxs js-comments__vote-label" aria-hidden="true">5</span>
+                            </button>
+
+                            <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                            <button class="reset comments__label-btn js-tab-focus">Reply</button>
+
+                            <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                            <time class="comments__time" aria-label="1 hour ago">1h</time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="comments__comment">
+                    <div class="flex items-start">
+                      <a href="#0" class="comments__author-img">
+                        <img src="assets/img/comments-placeholder.svg" alt="Author picture">
+                      </a>
+
+                      <div class="comments__content margin-top-xxxs">
+                        <div class="text-component text-sm text-space-y-xs line-height-sm read-more js-read-more"
+                          data-characters="150" data-btn-class="comments__readmore-btn js-tab-focus">
+                          <p><a href="#0" class="comments__author-name" rel="author">Olivia Gribben</a></p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium consequatur.
+                            Perspiciatis!</p>
+                        </div>
+
+                        <div class="margin-top-xs text-sm">
+                          <div class="flex gap-xxs items-center">
+                            <button class="reset comments__vote-btn js-comments__vote-btn js-tab-focus"
+                              data-label="Like this comment along with 5 other people" aria-pressed="false">
+                              <span class="comments__vote-icon-wrapper">
+                                <svg class="icon block" viewBox="0 0 12 12" aria-hidden="true">
+                                  <path
+                                    d="M11.045,2.011a3.345,3.345,0,0,0-4.792,0c-.075.075-.15.225-.225.3-.075-.074-.15-.224-.225-.3a3.345,3.345,0,0,0-4.792,0,3.345,3.345,0,0,0,0,4.792l5.017,4.718L11.045,6.8A3.484,3.484,0,0,0,11.045,2.011Z">
+                                  </path>
+                                </svg>
+                              </span>
+
+                              <span class="margin-left-xxxs js-comments__vote-label" aria-hidden="true">5</span>
+                            </button>
+
+                            <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                            <button class="reset comments__label-btn js-tab-focus">Reply</button>
+
+                            <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                            <time class="comments__time" aria-label="1 hour ago">1h</time>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </details>
+          </li>
+
+          <li class="comments__comment">
+            <div class="flex items-start">
+              <a href="#0" class="comments__author-img">
+                <img src="assets/img/comments-placeholder.svg" alt="Author picture">
+              </a>
+
+              <div class="comments__content margin-top-xxxs">
+                <div class="text-component text-sm text-space-y-xs line-height-sm read-more js-read-more"
+                  data-characters="150" data-btn-class="comments__readmore-btn js-tab-focus">
+                  <p><a href="#0" class="comments__author-name" rel="author">Olivia Gribben</a></p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, accusantium consequatur.
+                    Perspiciatis!</p>
+                </div>
+
+                <div class="margin-top-xs text-sm">
+                  <div class="flex gap-xxs items-center">
+                    <button class="reset comments__vote-btn js-comments__vote-btn js-tab-focus"
+                      data-label="Like this comment along with 5 other people" aria-pressed="false">
+                      <span class="comments__vote-icon-wrapper">
+                        <svg class="icon block" viewBox="0 0 12 12" aria-hidden="true">
+                          <path
+                            d="M11.045,2.011a3.345,3.345,0,0,0-4.792,0c-.075.075-.15.225-.225.3-.075-.074-.15-.224-.225-.3a3.345,3.345,0,0,0-4.792,0,3.345,3.345,0,0,0,0,4.792l5.017,4.718L11.045,6.8A3.484,3.484,0,0,0,11.045,2.011Z">
+                          </path>
+                        </svg>
+                      </span>
+
+                      <span class="margin-left-xxxs js-comments__vote-label" aria-hidden="true">5</span>
+                    </button>
+
+                    <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                    <button class="reset comments__label-btn js-tab-focus">Reply</button>
+
+                    <span class="comments__inline-divider" aria-hidden="true"></span>
+
+                    <time class="comments__time" aria-label="1 hour ago">1h</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <form>
+          <fieldset>
+            <legend class="form-legend">Add a new comment</legend>
+
+            <div class="margin-bottom-xs">
+              <label class="sr-only" for="commentNewContent">Your comment</label>
+              <textarea class="form-control width-100%" name="commentNewContent" id="commentNewContent"></textarea>
+            </div>
+
+            <div>
+              <button class="btn btn--primary">Post comment</button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="main-footer bg-contrast-lower bg-opacity-30% padding-top-xl padding-bottom-md">
+    <div class="container max-width-lg reveal-fx reveal-fx--translate-up" data-reveal-fx-delta="50">
+      <div class="grid gap-lg">
+        <div class="col-3@lg order-2@lg flex@lg justify-end@lg">
+          <a href="index.html" class="main-footer__logo">
+            <svg width="104" height="30" viewBox="0 0 104 30">
+              <title>Go to homepage</title>
+              <path fill="var(--color-contrast-higher)" d="M43.371 6.3v15.482c0 .567-.01 1.587.543 1.758a7.624 7.624 0 001.992.132c2.012 0 3.842-2.683 4.5-3.831a11.223 11.223 0 001.319-3.581h.689q-.087 1.069-.088 2.754 0 3.252.2 5.346c-6.586-.087-10.41-.111-17.373 0v-.6c2.34 0 2.139-1.266 2.139-2.578V6.3c0-2.091-.254-2.515-2.139-2.578v-.6q1.714.088 5.346.088 3.457 0 5.3-.088v.6c-2.299-.001-2.428.794-2.428 2.578zM69.446 16.6c0 4.278-1.508 8.188-7.7 8.188-4.324 0-7.72-1.827-7.72-8.188 0-6.18 3.187-8.233 7.72-8.233 5.525-.003 7.7 3.05 7.7 8.233zm-9.814 0c0 2.558.243 7.588 2.109 7.588s2.095-5.03 2.095-7.588-.211-7.632-2.095-7.632c-1.866-.003-2.109 5.06-2.109 7.632zM103.532 16.6c0 4.278-1.509 8.188-7.7 8.188-4.324 0-7.72-1.827-7.72-8.188 0-6.18 3.187-8.233 7.72-8.233 5.525-.003 7.7 3.05 7.7 8.233zm-9.814 0c0 2.558.243 7.588 2.109 7.588s2.095-5.03 2.095-7.588-.211-7.632-2.095-7.632c-1.866-.003-2.109 5.06-2.109 7.632zM86.907 23.672c0 3.175-2.654 4.813-3.991 5.413-3.269 1.468-8 .795-9.053.557s-2.879-.783-2.879-2.132c0-1.4 1.721-1.421 2.791-1.538a3.138 3.138 0 002.146-.835c-.568.011-2.734.223-3.97-1.208a3.606 3.606 0 01-.226-3.656c.249-.5.922-1.555 3.507-2.739a4.58 4.58 0 01-3.647-4.365 4.469 4.469 0 013.384-4.277 12.818 12.818 0 015.464-.411 4.849 4.849 0 01.813-3.493A3.007 3.007 0 0183.787 3.9c1.672 0 2.593.9 2.593 2.007a1.937 1.937 0 01-1.216 1.703 3.4 3.4 0 01-2.893-.132A2.929 2.929 0 0181.238 6.3a5.74 5.74 0 00-.161 2.27c4.2.843 4.6 3.35 4.6 4.6 0 2.866-2.348 4.805-7.046 4.805a12.73 12.73 0 01-2.842-.293c-.536.348-1.172.715-1.172 1.494q0 .981 1.07.981H82.5c1.316-.001 4.407.219 4.407 3.515zm-10.766 3.413c0 2.19 1.821 2.4 2.71 2.4a3.723 3.723 0 003.405-1.619 3.206 3.206 0 00.491-1.764c0-.484-.155-.967-1.377-.967h-4.849a4.312 4.312 0 00-.38 1.95zm.966-13.916c0 1.543.058 4.263 1.524 4.263 1.487 0 1.538-2.72 1.538-4.263s-.075-4.263-1.538-4.263c-1.443 0-1.524 2.73-1.524 4.263z"/>
+              <path fill="var(--color-primary)" d="M14 14V1H1v26h27V14H14z"/>
+              <path fill="var(--color-primary)" d="M14 1h14v13L14 1z"/>
+            </svg>
+          </a>
+        </div>
+
+        <nav class="col-9@lg order-1@lg">
+          <ul class="grid gap-lg">
+            <li class="col-6@sm col-3@md">
+              <div class="main-footer__items">
+                <h4 class="font-primary">Shop</h4>
+                <div class="main-footer__item"><a href="shop.html" class="main-footer__link">All Products</a></div>
+                <div class="main-footer__item"><a href="shop-categories.html" class="main-footer__link">Categories</a>
+                </div>
+                <div class="main-footer__item"><a href="product-v1.html" class="main-footer__link">Product v1</a></div>
+                <div class="main-footer__item"><a href="product-v2.html" class="main-footer__link">Product v2</a></div>
+                <div class="main-footer__item"><a href="cart.html" class="main-footer__link">Cart</a></div>
+                <div class="main-footer__item"><a href="checkout.html" class="main-footer__link">Checkout</a></div>
+              </div>
+            </li>
+
+            <li class="col-6@sm col-3@md">
+              <div class="main-footer__items">
+                <h4 class="font-primary">Pages</h4>
+                <div class="main-footer__item"><a href="index.html" class="main-footer__link">Home v1</a></div>
+                <div class="main-footer__item"><a href="home-v2.html" class="main-footer__link">Home v2</a></div>
+                <div class="main-footer__item"><a href="about-us.html" class="main-footer__link">About Us</a></div>
+                <div class="main-footer__item"><a href="404.html" class="main-footer__link">404</a></div>
+                <div class="main-footer__item"><a href="thank-you.html" class="main-footer__link">Thank You</a></div>
+                <div class="main-footer__item"><a href="basic-page.html" class="main-footer__link">Basic Page</a></div>
+              </div>
+            </li>
+
+            <li class="col-6@sm col-3@md">
+              <div class="main-footer__items">
+                <h4 class="font-primary">Blog</h4>
+                <div class="main-footer__item"><a href="blog.html" class="main-footer__link">Blog Gallery v1</a></div>
+                <div class="main-footer__item"><a href="blog-v2.html" class="main-footer__link">Blog Gallery v2</a>
+                </div>
+                <div class="main-footer__item"><a href="blog-post.html" class="main-footer__link">Blog Post</a></div>
+              </div>
+            </li>
+
+            <li class="col-6@sm col-3@md">
+              <div class="main-footer__items">
+                <h4 class="font-primary">Account</h4>
+                <div class="main-footer__item"><a href="account-settings.html" class="main-footer__link">Settings</a>
+                </div>
+                <div class="main-footer__item"><a href="account-addresses.html" class="main-footer__link">Addresses</a>
+                </div>
+                <div class="main-footer__item"><a href="account-order-history.html" class="main-footer__link">Order
+                    History</a></div>
+                <div class="main-footer__item"><a href="account-order-details.html" class="main-footer__link">Order
+                    Details</a></div>
+                <div class="main-footer__item"><a href="account-wishlist.html" class="main-footer__link">Wishlist</a>
+                </div>
+                <div class="main-footer__item"><a href="account-payment-methods.html" class="main-footer__link">Payment
+                    Methods</a></div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main-footer__colophon border-top padding-top-xs margin-top-lg">
+        <div class="text-sm text-xs@md color-contrast-medium flex gap-xs">
+          <span>&copy; myWebsite</span>
+          <a href="basic-page.html" class="color-contrast-high">Terms</a>
+          <a href="basic-page.html" class="color-contrast-high">Privacy</a>
+        </div>
+
+        <div class="flex items-center gap-xs">
+          <a href="#0" class="main-footer__social">
+            <svg class="icon" viewBox="0 0 16 16">
+              <title>Follow us on Twitter</title>
+              <g>
+                <path
+                  d="M16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1 C9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7C5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7 c-0.5,0-1-0.2-1.5-0.4c0,0,0,0,0,0c0,1.6,1.1,2.9,2.6,3.2C3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3 c-1.1,0.9-2.5,1.4-4.1,1.4c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4C15,4.3,15.6,3.7,16,3z">
+                </path>
+              </g>
+            </svg>
+          </a>
+
+          <a href="#0" class="main-footer__social">
+            <svg class="icon" viewBox="0 0 16 16">
+              <title>Follow us on Youtube</title>
+              <g>
+                <path
+                  d="M15.8,4.8c-0.2-1.3-0.8-2.2-2.2-2.4C11.4,2,8,2,8,2S4.6,2,2.4,2.4C1,2.6,0.3,3.5,0.2,4.8C0,6.1,0,8,0,8 s0,1.9,0.2,3.2c0.2,1.3,0.8,2.2,2.2,2.4C4.6,14,8,14,8,14s3.4,0,5.6-0.4c1.4-0.3,2-1.1,2.2-2.4C16,9.9,16,8,16,8S16,6.1,15.8,4.8z M6,11V5l5,3L6,11z">
+                </path>
+              </g>
+            </svg>
+          </a>
+
+          <a href="#0" class="main-footer__social">
+            <svg class="icon" viewBox="0 0 16 16">
+              <title>Find us on Facebook</title>
+              <g>
+                <path
+                  d="M16,8.048a8,8,0,1,0-9.25,7.9V10.36H4.719V8.048H6.75V6.285A2.822,2.822,0,0,1,9.771,3.173a12.2,12.2,0,0,1,1.791.156V5.3H10.554a1.155,1.155,0,0,0-1.3,1.25v1.5h2.219l-.355,2.312H9.25v5.591A8,8,0,0,0,16,8.048Z">
+                </path>
+              </g>
+            </svg>
+          </a>
+
+          <a href="#0" class="main-footer__social">
+            <svg class="icon" viewBox="0 0 16 16">
+              <title>Follow us on Instagram</title>
+              <g>
+                <circle cx="12.145" cy="3.892" r="0.96"></circle>
+                <path
+                  d="M8,12c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S10.206,12,8,12z M8,6C6.897,6,6,6.897,6,8 s0.897,2,2,2s2-0.897,2-2S9.103,6,8,6z">
+                </path>
+                <path
+                  d="M12,16H4c-2.056,0-4-1.944-4-4V4c0-2.056,1.944-4,4-4h8c2.056,0,4,1.944,4,4v8C16,14.056,14.056,16,12,16z M4,2C3.065,2,2,3.065,2,4v8c0,0.953,1.047,2,2,2h8c0.935,0,2-1.065,2-2V4c0-0.935-1.065-2-2-2H4z">
+                </path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- cart drawer -->
+  <div class="modal modal--animate-slide-left flex justify-end bg-contrast-higher bg-opacity-90% js-modal"
+    id="cart-drawer">
+    <div class="modal__content dr-cart bg shadow-md flex flex-column width-100% max-width-xxs js-tab-focus" role="alertdialog"
+      tabindex="-1" aria-labelledby="cart-drawer-title" aria-describedby="cart-drawer-description">
+      <div class="padding-top-sm padding-x-md flex-grow overflow-auto momentum-scrolling overscroll-contain">
+        <button
+          class="reset modal__close-btn modal__close-btn--inner float-right position-sticky top-0 js-modal__close js-tab-focus">
+          <svg class="icon" viewBox="0 0 20 20">
+            <title>Close modal window</title>
+            <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2">
+              <line x1="3" y1="3" x2="17" y2="17" />
+              <line x1="17" y1="3" x2="3" y2="17" />
+            </g>
+          </svg>
+        </button>
+
+        <h2 id="cart-drawer-title">Your Cart</h2>
+
+        <ol class="margin-top-md">
+          <li class="dr-cart__product">
+            <a href="#0" class="dr-cart__img"><img src="assets/img/cart-drawer-img-1.jpg" alt="Image description"></a>
+
+            <div>
+              <h2 class="text-base"><a href="#0" class="color-inherit">Product One</a></h2>
+              <p class="text-sm color-contrast-medium margin-top-xxxs">Color: Black, Size: M</p>
+
+              <div class="margin-top-xxxxs">
+                <div class="select dr-cart__select">
+                  <select class="select__input form-control" name="selectProductQty1" id="selectProductQty1"
+                    data-label="Select product quantity">
+                    <option value="0">1</option>
+                    <option value="1">2</option>
+                    <option value="2">3</option>
+                  </select>
+
+                  <svg class="icon select__icon" aria-hidden="true" viewBox="0 0 16 16">
+                    <g stroke-width="1" stroke="currentColor">
+                      <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" points="15.5,4.5 8,12 0.5,4.5 "></polyline>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-right">
+              <p class="color-contrast-higher">$49.00</p>
+              <button class="dr-cart__remove-btn margin-top-xxxs">Remove</button>
+            </div>
+          </li>
+
+          <li class="dr-cart__product">
+            <a href="#0" class="dr-cart__img"><img src="assets/img/cart-drawer-img-2.jpg" alt="Image description"></a>
+
+            <div>
+              <h2 class="text-base"><a href="#0" class="color-inherit">Product Two</a></h2>
+              <p class="text-sm color-contrast-medium margin-top-xxxs">Color: Black, Size: M</p>
+
+              <div class="margin-top-xxxxs">
+                <div class="select dr-cart__select">
+                  <select class="select__input form-control" name="selectProductQty2" id="selectProductQty2"
+                    data-label="Select product quantity">
+                    <option value="0">1</option>
+                    <option value="1">2</option>
+                    <option value="2">3</option>
+                  </select>
+
+                  <svg class="icon select__icon" aria-hidden="true" viewBox="0 0 16 16">
+                    <g stroke-width="1" stroke="currentColor">
+                      <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-miterlimit="10" points="15.5,4.5 8,12 0.5,4.5 "></polyline>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-right">
+              <p class="color-contrast-higher">$49.00</p>
+              <button class="dr-cart__remove-btn margin-top-xxxs">Remove</button>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <footer class="bg-contrast-lower bg-opacity-30% padding-x-md padding-y-sm flex-shrink-0">
+        <p class="flex justify-between"><span>Subtotal:</span> <span>$98.00</span></p>
+        <a href="#0" class="btn btn--primary btn--md width-100% margin-y-xs">Checkout &rarr;</a>
+      </footer>
+    </div>
+  </div>
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
